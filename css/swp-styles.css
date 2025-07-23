@@ -1,0 +1,422 @@
+:root {
+    --color-morado: #8c4996;
+    --color-negro: #000000;
+    --color-dorado: #d6ad57;
+    --color-gris-1: #bbbbbb;
+
+}
+
+.cont-swp-cons{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.cont-swp-cons .swiper {
+      width: 100%;
+      height: auto;
+      background-color: ;
+      padding: 20px 20px;
+}
+
+.cont-swp-cons .swiper-slide {
+      height: auto;
+      font-size: 18px;
+      background: ;
+      border-radius: 15px;
+      box-shadow: 
+      0 0.5rem 1rem rgba(0, 0, 0, 0.15), /* sombra abajo */
+      0 -0.5rem 1rem rgba(0, 0, 0, 0.15); /* sombra arriba */
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      padding: 0;
+      overflow: hidden;
+
+}
+
+.cont-swp-cons .swiper-slide .box-img-consultor {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.cont-swp-cons .swiper-slide .box-img-consultor img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.cont-swp-cons .swiper-slide .box-txt-consultor {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    margin: 0;
+}
+
+.cont-txt-kit{
+    width: 100%;
+    height: auto;
+    padding: 0 16px ;
+    margin: 16px 0 0 0;
+    background-color: ;
+}
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit{
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-1{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    background-color: #f04e4c;
+    border-radius: 0 12px 12px 0;
+}
+
+.cont-swp-cons .swiper-slide  .span-fecha {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+}
+
+.cont-swp-cons .swiper-slide  .span-precio {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+}
+
+.cont-swp-cons .swiper-slide  .span-pedido {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+}
+
+.cont-swp-cons .swiper-slide  .span-fecha-2 {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: black;
+}
+
+.cont-swp-cons .swiper-slide  .span-precio-2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: black;
+}
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-2{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    background-color: #435159;
+    border-radius: 12px 0 0 12px;
+
+}
+
+/*
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-2 .span-fecha {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+}
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-2 .span-precio {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    color: white;
+}
+*/
+
+.cont-swp-cons .swiper-slide .cont-img-kit {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.cont-swp-cons .swiper-slide .cont-img-kit img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-3{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    background-color: var(--color-morado);
+    border-radius: 0 12px 12px 0;
+}
+
+.cont-swp-cons .swiper-slide .cont-detalles-kit .box-detalle-4{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0;
+    background-color: #ffe95e;
+    border-radius: 12px 0 0 12px;
+}
+
+
+
+
+
+
+
+
+
+.cont-swp-cons .swiper .swiper-navigation-top {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-bottom: 16px;
+      background-color: ;
+    }
+
+.cont-swp-cons .swiper .swiper-button-prevv1 {
+    display: inline-block;
+    background-color: #fff;
+    color: var(--color-morado);
+    border: 1px solid var(--color-morado);
+    padding: 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+.cont-swp-cons .swiper .swiper-button-nextt1 {
+    display: inline-block;
+    background-color: #fff;
+    color: var(--color-morado);
+    border: 1px solid var(--color-morado);
+    padding: 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+
+
+/* estilos de slider de testimonios */
+
+.cont-swp-test{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.cont-swp-test .swiper {
+      width: 100%;
+      height: auto;
+      background-color: ;
+      padding: 20px 20px;
+}
+
+.cont-swp-test .swiper-slide {
+      height: auto;
+      font-size: 18px;
+      background: #f8f8f8;
+      border-radius: 15px;
+      box-shadow: 
+      0 0.5rem 1rem rgba(0, 0, 0, 0.15), /* sombra abajo */
+      0 -0.5rem 1rem rgba(0, 0, 0, 0.15); /* sombra arriba */;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      padding: 16px;
+
+}
+
+.cont-swp-test .swiper-slide .foto-test{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-swp-test .swiper-slide i{
+    font-size: 2rem;
+    color: var(--color-morado);
+}
+
+.cont-swp-test .swiper-slide .img-ventaja {
+    display: block;
+    width: 20%;
+    max-width: 50px;
+    height: auto;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.cont-swp-test .swiper-slide .foto-test img{
+    display: flex;
+    width: 40%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid var(--color-morado);
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+.cont-swp-test .swiper-slide .foto-test .txt-name{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 0;
+}
+
+.cont-swp-test .swiper-slide .foto-test .txt-state{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 0;
+}
+
+.cont-swp-test .swiper-slide .txt-comment{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0;
+    font-style: italic;
+}
+
+/*
+.swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+*/
+
+.cont-swp-test .swiper .swiper-navigation-top {
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-bottom: 16px;
+      background-color: ;
+    }
+
+.cont-swp-test .swiper .swiper-button-prevv {
+    display: inline-block;
+    background-color: #fff;
+    color: var(--color-morado);
+    border: 1px solid var(--color-morado);
+    padding: 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    margin: 0 16px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+
+.cont-swp-test .swiper .swiper-button-nextt {
+    display: inline-block;
+    background-color: #fff;
+    color: var(--color-morado);
+    border: 1px solid var(--color-morado);
+    padding: 10px 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 50%;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+    @media(max-width: 799px) {
+
+        .cont-swp-cons .swiper {
+            width: 100%;
+            height: auto;
+            background-color: ;
+            padding: 20px 10px;
+        }
+
+          .cont-swp-test .swiper {
+            width: 100%;
+            height: auto;
+            background-color: ;
+            padding: 20px 10px;
+        }
+
+        .cont-swp-test .swiper-slide .foto-test .txt-name{
+            font-size: 16px;
+          
+        }
+
+        .cont-swp-test .swiper-slide .foto-test .txt-state{
+            font-size: 16px;
+          
+        }
+
+        .cont-swp-test .swiper-slide .txt-comment{
+            font-size: 14px;
+          
+        }
+    }
